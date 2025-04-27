@@ -32,6 +32,14 @@ nav ul {
   gap: 20px;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  color: var(--primaria);
+  margin-bottom: 1rem;
+}
+
 .menu-btn {
   font-size: 30px;
   cursor: pointer;
@@ -68,15 +76,19 @@ button:hover {
 }
 
 #home,
+#nivel {
+  max-width: 760px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
 #iniciante,
 #intermediario,
-#avancado,
-#nivel {
+#avancado {
   max-width: 760px;
   height: auto;
   margin: 0 auto;
-  border: 1px solid red;
-  padding: 2rem;
 }
 
 #nivel,
@@ -104,4 +116,16 @@ button:hover {
   border-radius: 25px;
   padding: 1rem 2rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#iniciante .exercicio-card {
+  border-radius: 25px;
+  overflow: hidden;
+  padding: 1rem 0.7rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.342);
+  text-align: center;
+}
+#iniciante .exercicio-card .video {
+  border-radius: 20px;
+  overflow: hidden;
 }
