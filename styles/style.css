@@ -88,7 +88,7 @@ button:hover {
 #avancado {
   max-width: 760px;
   height: auto;
-  margin: 0 auto;
+  margin: 2rem auto;
 }
 
 #nivel,
@@ -118,14 +118,14 @@ button:hover {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-#iniciante .exercicio-card {
+.exercicio-card  {
   border-radius: 25px;
   overflow: hidden;
   padding: 1rem 0.7rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.342);
   text-align: center;
 }
-#iniciante .exercicio-card .video {
+.video {
   border-radius: 20px;
   overflow: hidden;
 }
