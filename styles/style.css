@@ -129,3 +129,27 @@ button:hover {
   border-radius: 20px;
   overflow: hidden;
 }
+
+.footer {
+  background-color:rgb(163, 163, 163);
+  color: #000;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer a {
+  color: var(--primaria);
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
