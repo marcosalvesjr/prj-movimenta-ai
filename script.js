@@ -1,4 +1,9 @@
 function clickToShow() {
-  const menu = document.getElementById("menu");
-  menu.classList.toggle("show");
+  const modal = document.getElementById("modal");
+  modal.style.display = "block";
+}
+
+function clickToHide() {
+  const modal = document.getElementById("modal");
+  modal.style.display = "none";
 }
